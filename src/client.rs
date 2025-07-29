@@ -5,7 +5,7 @@ use crate::model::*;
 
 const URL_CREATE_TOKEN: &str = "https://bankaccountdata.gocardless.com/api/v2/token/new/";
 const URL_GET_INSTITUTIONS: &str =
-    "https://bankaccountdata.gocardless.com/api/v2/institutions/?country=gb"; // TODO: make country a variable
+    "https://bankaccountdata.gocardless.com/api/v2/institutions/?country=fr"; // TODO: make country a variable
 const URL_CREATE_END_USER_AGREEMENT: &str =
     "https://bankaccountdata.gocardless.com/api/v2/agreements/enduser/";
 const URL_REQUISITIONS: &str = "https://bankaccountdata.gocardless.com/api/v2/requisitions/";
