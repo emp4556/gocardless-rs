@@ -214,9 +214,8 @@ pub struct Account {
 #[derive(Default, Debug, Copy, Clone, PartialEq, Serialize, Deserialize)]
 pub enum AccountStatus {
     #[default]
-    #[serde(rename = "enabled")]
     /// Account is available
-    Enabled,
+    Active,
     #[serde(rename = "deleted")]
     /// Account is terminated
     Deleted,
