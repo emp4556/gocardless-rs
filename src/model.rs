@@ -60,7 +60,7 @@ pub struct Requisition {
     pub reference: String,
     pub accounts: Vec<String>,
     #[serde(rename = "user_language")]
-    pub user_language: String,
+    pub user_language: Option<String>,
     pub link: String,
     // pub ssn: Value,
     #[serde(rename = "account_selection")]
