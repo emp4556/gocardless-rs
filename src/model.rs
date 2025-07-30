@@ -110,7 +110,9 @@ pub struct Transaction {
     pub transaction_id: String,
     pub booking_date: String,
     pub value_date: Option<String>,
+    #[serde(rename = "bookingDateTime")]
     pub booking_date_time: String,
+    #[serde(rename = "valueDateTime")]
     pub value_date_time: Option<String>,
     pub transaction_amount: TransactionAmount,
     pub creditor_name: Option<String>,
